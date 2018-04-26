@@ -41,7 +41,3 @@ def profile(username):
 
 # Registro de rota usando chamada de método
 app.add_url_rule('/user/<username>/', view_func=profile, endpoint='user')
-
-
-if __name__ == '__main__':
-    app.run(use_reloader=True)
